@@ -1,7 +1,4 @@
-import requests
-import time
-import urllib3
-import sys
+import requests, time, urllib3, sys
 
 
 def parse_args():
