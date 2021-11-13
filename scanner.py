@@ -1,8 +1,7 @@
-import requests, time, urllib3, sys
+import requests, time, urllib3, sys, argparse
 
 
 def parse_args():
-    import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument('-d',
                         '--domain',
